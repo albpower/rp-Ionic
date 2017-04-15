@@ -1,0 +1,18 @@
+<ion-view view-title="{{title}}">
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+    </ion-nav-buttons>
+
+    <ion-content has-bouncing="true">
+        <div class="wrapper">
+            <h2 class="title">{{title}}</h2>
+           <img ng-src="{{thumbnail}}" class="featuredImage">
+           <div class="item item-divider">
+               Shperndaje: <i class="icon ion-social-facebook"></i> <i class="icon ion-social-twitter"></i>
+           </div>
+           <p ng-bind-html="content" class="padding"></p>
+        </div>
+   
+    </ion-content>
+
+</ion-view>

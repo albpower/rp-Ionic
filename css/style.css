@@ -1,0 +1,44 @@
+/*===================================
+  00 - MAIN STYLES
+====================================*/
+*{
+  font-family:'TitilliumWebRegular';
+}
+
+ion-content{
+  /*background: #eee;*/
+}
+
+.list:last-child.card{
+  margin-bottom: 0px;
+}
+
+.item h2{
+  white-space: normal;
+}
+
+.wrapper{
+  background:#fff;
+  padding: 10px;
+}
+.featuredImage{
+  width:100%;
+}
+.title{
+  text-align: center;
+  font-size:18px;
+}
+
+/*==================================
+    NOW PLAYING THUMBNAIL
+==================================== */
+ 
+ .nowplaying-thumb{
+     width: 50%;
+     background: #333;
+     margin: 20px auto;
+     padding: 5px;
+     display:block;
+     min-height:170px;
+     min-width:170px;
+ }

@@ -1,0 +1,22 @@
+<ion-view view-title="Preferencat">
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+    </ion-nav-buttons>
+
+    <ion-content has-bouncing="true">
+
+        <div class="wrapper">
+            <p>Menaxho shfaqjen e kategorive</p>
+            <ion-checkbox ng-repeat="item in categories" ng-checked="item.checked" ng-model="item.checked"> {{item.name}}
+            
+        </div>
+        
+        <pre>
+            {{categories | json }}
+        </pre>
+
+
+        
+   </ion-content>
+
+</ion-view>
